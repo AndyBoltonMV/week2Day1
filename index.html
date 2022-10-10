@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Extension</title>
+  </head>
+  <body>
+    <header>
+      <h1>Week 2 Day 1 Extension:</h1>
+      <h2>JavaScript Challenges</h2>
+    </header>
+
+    <main>
+      <section>
+        <h3>Easy: Shape Names</h3>
+        <p>
+          Write a function that, when given a number of sides, will tell return
+          a shape name
+        </p>
+        <ul>
+          <li>Function should recieve an integer</li>
+          <li>Use conditionals to check integer</li>
+          <li>Return output to "e-out" p tag</li>
+        </ul>
+        <input id="easy" placeholder="Whole Number" />
+        <button id="e-bttn">Submit</button>
+        <p id="e-out"></p>
+      </section>
+      <section>
+        <h3>Medium: Fizz Buzz</h3>
+        <p>
+          Write a function that, when given a whole number, checks it's
+          remainder when divded by 3 or 5 and outputs a relevant string
+        </p>
+        <ul>
+          <li>Function should recieve an integer</li>
+          <li>If integer is divisible by 3, return "Fizz" string</li>
+          <li>If integer is divisible by 5, return "Buzz" string</li>
+          <li>If integer is divisible by both, return "FizzBuzz" string</li>
+          <li>Return output to "m-out" p tag</li>
+        </ul>
+        <input id="med" placeholder="Whole Number" />
+        <button id="m-bttn">Submit</button>
+        <p id="m-out"></p>
+      </section>
+      <section>
+        <h3>Hard: Tax Bracket</h3>
+        <p>
+          Create a function that, when given an integer, will output a take home
+          salary, based on UK tax brackets
+        </p>
+        <ul>
+          <li>Function should recieve an integer</li>
+          <li>
+            The integer should then be reduced in value based on the following
+            tax brackets
+          </li>
+          <li>Return output to "h-out" p tag</li>
+        </ul>
+        <table>
+          <tr>
+            <th>Tax Bracket</th>
+            <th>Tax Rate</th>
+          </tr>
+          <tr>
+            <td>£0 - £12,570</td>
+            <td>0%</td>
+          </tr>
+          <tr>
+            <td>£12,571 - £50,270</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>£50,271 - £150,000</td>
+            <td>40%</td>
+          </tr>
+          <tr>
+            <td>£150,001+</td>
+            <td>45%</td>
+          </tr>
+        </table>
+        <input id="hard" placeholder="Whole Number" />
+        <button id="h-bttn">Submit</button>
+        <p id="h-out"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Stolen By Andy Bolton</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>

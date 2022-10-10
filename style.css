@@ -1,0 +1,19 @@
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section {
+  border: 2px solid black;
+  width: 20vw;
+  padding: 1vw;
+}
+
+footer {
+  text-align: center;
+}
